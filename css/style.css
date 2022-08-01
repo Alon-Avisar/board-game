@@ -1,0 +1,23 @@
+body {background-color: black; color:white}
+
+.cell {min-width:50px; height:50px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: rgb(199, 199, 199)}
+.wall {background-color: rgb(15, 142, 173)}
+.stuck-message {
+    position: absolute;
+    background-color: rgb(173, 15, 15);
+    color: white;
+    font-size: larger;
+    display: none;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    width: 200px;
+}
+
+.display {
+    display: block;
+}
+
+
